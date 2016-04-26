@@ -1,0 +1,126 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+html, body {
+	background-color: #e7e7e7;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+.navbar-brand {
+	font-weight: bolder;
+}
+
+li>a {
+	border-right: 1px solid rgb(231, 231, 231);
+	border-left: 1px solid rgb(231, 231, 231);
+	text-align: center;
+	font-weight: bolder;
+}
+
+.title {
+	font-size: 21px;
+}
+
+.primary-text {
+	font-size: 15px;
+}
+
+.secondary-text {
+	font-size: 13px;
+}
+
+.minor-text {
+	font-size: 12px;
+}
+
+.logo {
+	width: 220px;
+	height: auto;
+}
+
+.centered {
+	text-align: center;
+	margin: 0px auto;
+}
+
+input[type=text] {
+	height: auto;
+	outline: none;
+}
+
+.btn-default {
+	color: #336699;
+	background-color: white;
+	transition: .2s ease-out;
+	border: solid 0.05rem;
+	border-radius: 0.3rem;
+	border-color: #adadad;
+	padding: 7px;
+	font-size: 13px;
+	width: 75px;
+	font-weight: bolder;
+}
+
+.btn-default:hover {
+	color: #336699;
+	background-color: white;
+	border-color: #adadad;
+	opacity: 0.8;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media ( min-width : 768px) {
+	.title {
+		font-size: 26px;
+	}
+	.primary-text {
+		font-size: 20px;
+	}
+	.secondary-text {
+		font-size: 14px;
+	}
+	.minor-text {
+		font-size: 12px;
+	}
+	.logo {
+		width: 450px;
+		height: auto;
+	}
+	.btn-default {
+		padding: 9px;
+		font-size: 18px;
+		font-weight: bolder;
+		width: 100px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media ( min-width : 992px) {
+	.title {
+		font-size: 34px;
+	}
+	.primary-text {
+		font-size: 28px;
+	}
+	.secondary-text {
+		font-size: 22px;
+	}
+	.minor-text {
+		font-size: 18px;
+	}
+	.logo {
+		width: 600px;
+		height: auto;
+	}
+	.btn-default {
+		padding: 13px;
+		font-size: 26px;
+		font-weight: bolder;
+		width: 150px;
+	}
+}

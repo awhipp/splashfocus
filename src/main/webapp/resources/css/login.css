@@ -1,0 +1,81 @@
+html, body {
+	background-color: #336699;
+}
+
+.content {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	color: white;
+	margin-top: 6vh;
+	overflow-x: auto;
+}
+
+#signin {
+	color: white;
+	width: 60vw;
+	margin-top: 18vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input[type=text], input[type=password] {
+	color: white;
+	background-color: rgba(255, 255, 255, 0.1);
+	text-align: center;
+	border: outset 1px;
+	height: auto;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	color: #ddd;
+	text-transform: none;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #ddd;
+	opacity: 1;
+	text-transform: none;
+}
+
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #ddd;
+	opacity: 1;
+	text-transform: none;
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #ddd;
+	text-transform: none;
+}
+
+.form-control:placeholder-shown {
+	/* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+	color: #ddd;
+	text-transform: none;
+}
+
+input[type=text].invalid {
+	border-bottom: 1px solid #F44336;
+	box-shadow: 0 1px 0 0 #F44336;
+}
+
+#message {
+	position: fixed;
+	z-index: 3;
+	bottom: 100px;
+	width: 100%;
+	background-color: #26a69a;
+	color: white;
+	opacity: 0.9;
+}
+
+#inner-message {
+	text-align: center;
+	padding-bottom: 0;
+	font-weight: bolder;
+}
