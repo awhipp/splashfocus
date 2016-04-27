@@ -1,4 +1,4 @@
-# Splash Focus
+# Splash Focus [Progress: Development Halted]
 
 SplashFocus is an application built on Java Spring 3.0 to provide users the ability to search in realtime for, and to fill seasonal jobs.
 
